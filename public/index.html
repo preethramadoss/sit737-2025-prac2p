@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Cloud Inspired Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <img src="images/google-cloud-logo.png" alt="Cloud Logo" class="logo">
+        <input type="text" id="searchBar" placeholder="Search Cloud Services..." onkeyup="searchFunction()">
+        <select id="dropdownMenu">
+            <option value="compute">Compute Engine</option>
+            <option value="storage">Cloud Storage</option>
+            <option value="ai">AI & Machine Learning</option>
+            <option value="networking">Networking</option>
+        </select>
+        <button onclick="searchFunction()">Search</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1> Build Fast, Secure, and Scalable Applications with Google Cloud</h1>
+        <p>Innovate and scale with the best cloud solutions.</p>
+        <a href="#" class="cta-button">Get Started for Free</a>
+    </header>
+
+    <!-- Cloud Services Section -->
+    <section class="cloud-services">
+        <div class="service-card">
+            <img src="images/cloud-compute.jpg" alt="Compute Engine">
+            <h3>Compute Engine</h3>
+            <p>Deploy and scale virtual machines with powerful computing capabilities.</p>
+        </div>
+        <div class="service-card">
+            <img src="images/cloud-storage.jpg" alt="Cloud Storage">
+            <h3>Cloud Storage</h3>
+            <p>Store and access data securely from anywhere in the world.</p>
+        </div>
+        <div class="service-card">
+            <img src="images/cloud-ai.jpg" alt="AI Solutions">
+            <h3>AI & Machine Learning</h3>
+            <p>Powerful AI tools to build intelligent applications.</p>
+        </div>
+        <div class="service-card">
+            <img src="images/cloud-networking.png" alt="Networking">
+            <h3>Networking</h3>
+            <p>Fast and secure global networking solutions.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Google Cloud Inspired | Built with Express.js</p>
+    </footer>
+
+</body>
+</html>
